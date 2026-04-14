@@ -1,0 +1,23 @@
+# Risk Analysis (Simple)
+
+## Devices Found
+
+### 192.168.x.1
+- Device: Router
+- Risk: HIGH
+- Why: Controls whole network
+
+### 192.168.x.8
+- Device: My PC (AnyDesk detected earlier)
+- Risk: HIGH
+- Why: Remote access service existed
+
+### 192.168.x.16
+- Device: My Kali Linux machine
+- Risk: MEDIUM
+- Why: SSH port open
+
+### Others
+- Device: Phones/IoT
+- Risk: LOW
+- Why: No open ports

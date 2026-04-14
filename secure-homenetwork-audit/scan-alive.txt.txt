@@ -1,0 +1,19 @@
+# Nmap 7.95 scan initiated Tue Apr 14 11:31:03 2026 as: /usr/lib/nmap/nmap --privileged -sn -oN scan_alive.txt 192.168.1.0/24
+Nmap scan report for 192.168.x.1
+Host is up (0.0036s latency).
+MAC Address: 30:BD:13:2B:EC:xx (Unknown)
+Nmap scan report for 192.168.x.5
+Host is up (0.096s latency).
+MAC Address: 5E:E9:61:8C:A8:xx (Unknown)
+Nmap scan report for XstreamIPTV1-VT (192.168.x.7)
+Host is up (0.026s latency).
+MAC Address: DA:85:6C:7C:3C:xx (Unknown)
+Nmap scan report for 192.168.x.8
+Host is up (0.00029s latency).
+MAC Address: 5C:80:B6:85:BD:xx (Intel Corporate)
+Nmap scan report for 192.168.x.9
+Host is up (0.082s latency).
+MAC Address: B4:C4:FC:71:27:xx (Xiaomi Communications)
+Nmap scan report for 192.168.x.16
+Host is up.
+# Nmap done at Tue Apr 14 11:31:06 2026 -- 256 IP addresses (6 hosts up) scanned in 2.97 seconds

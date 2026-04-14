@@ -1,0 +1,98 @@
+# 🔐 Home Network Security Audit – Final Report
+
+## 📌 Executive Summary
+A security assessment was conducted on a local home network using Kali Linux and Nmap. The objective was to identify active devices, detect exposed services, and evaluate potential security risks.
+
+The scan identified 6 active devices, including a router, personal systems, and IoT devices. The overall network shows a moderate security posture with minimal exposed services.
+
+---
+
+## 🌐 Network Overview
+
+- Network Range: 192.168.x.0/24
+- Total Devices Discovered: 6
+- Devices include:
+  - Router (gateway)
+  - Personal computers
+  - Smartphone (Xiaomi)
+  - IPTV device
+  - Unknown devices
+
+---
+
+## 🔍 Key Findings
+
+### 🔴 High Risk
+- Router (192.168.x.1)
+  - Exposes HTTP/HTTPS services
+  - Critical network control point
+
+- Personal System (192.168.1.8)
+  - Remote access service detected earlier (AnyDesk)
+  - Potential for unauthorized remote control if misconfigured
+
+---
+
+### 🟡 Medium Risk
+- Kali Linux Machine (192.168.1.16)
+  - SSH access used for administration
+  - Requires proper credential management
+
+---
+
+### 🟢 Low Risk
+- Xiaomi Smartphone (192.168.x.9)
+- IPTV Device (192.168.x.7)
+- Other unknown devices
+
+Reason:
+- No open ports detected
+- Limited attack surface
+
+---
+
+## 🧠 Risk Assessment Summary
+
+| Risk Level | Count |
+|-----------|------|
+| High      | 2    |
+| Medium    | 1    |
+| Low       | 3    |
+
+---
+
+## 🔐 Security Improvements Performed
+
+- Disabled unnecessary remote access services (AnyDesk)
+- Verified closure of previously open ports
+- Reduced exposed attack surface
+
+---
+
+## ⚠️ Potential Attack Scenarios (Theoretical)
+
+If misconfigured, an attacker could:
+- Attempt login on router web interface
+- Exploit weak remote access credentials
+- Perform network reconnaissance for exposed services
+
+---
+
+## 🛡️ Recommendations
+
+- Use strong passwords for router and systems
+- Disable unused services
+- Keep devices updated
+- Restrict remote access where not required
+
+---
+
+## 📌 Conclusion
+
+The network demonstrates a generally secure configuration with limited exposure. However, critical devices such as the router and personal systems require continuous monitoring and proper configuration to prevent unauthorized access.
+
+---
+
+## ⚠️ Disclaimer
+
+This assessment was conducted on a personal network for educational purposes only. No unauthorized access or exploitation was performed.
